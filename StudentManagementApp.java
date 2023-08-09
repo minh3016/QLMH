@@ -38,9 +38,9 @@ public class StudentManagementApp {
     }
 
     private void initializeDatabase() {
-        String dbUrl = "jdbc:mysql://localhost:3306/your_db_name";
-        String dbUser = "your_db_username";
-        String dbPassword = "your_db_password";
+        String dbUrl = "jdbc:mysql://localhost:3306/quanlymonhoc";
+        String dbUser = "local";
+        String dbPassword = "123456";
 
         try {
             connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
